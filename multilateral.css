@@ -1,0 +1,100 @@
+.header{
+    width: 1280px;
+    position: fixed;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 2px;
+    overflow: hidden;
+    background-color: rgb(15, 17, 67);
+}
+
+li {
+    float: left;
+}
+
+li a, 
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+background-color: rgb(86, 80, 118);
+transition: background-color 0.3s;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(91, 91, 126);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgb(30, 31, 68);
+   
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover{
+    background-color: rgba(45, 50, 71, 0.889);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@font-face {
+    font-family: 'takeover';
+    src: url('takeover/Takeover.ttf') format('truetype'); /* Adjust path if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the font */
+body {
+    font-family: 'takeover';
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.rounded-box {
+    font-family: 'takeover';
+    padding: 20px;               /* Adds space inside the box */
+    background-color: rgb(235, 231, 255);   /* Light grey background color */
+    border-radius: 15px;         /* Rounds the corners of the box */
+    border: 2px solid #150934;      /* Adds a border around the box */
+    max-width: 1200px;            /* Optional: Limit the width */
+   
+    text-align: center;          /* Centers the text inside the box */
+    overflow: hidden; /* Ensures container wraps floated elements */
+}
+
+.jdl{
+    text-decoration-color: #ffffff;
+}
+
+body{
+    background-color: beige;
+}
+
+.gambar {
+    border: 6px solid;
+    border-color: #020227;
+    border-radius: 5px;
+    float: left; /* Positions the image to the left */
+    margin-right: 20px; /* Adds spacing between the image and text */
+}
